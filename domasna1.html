@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>Pizza order</title>
+    </head>
+
+    <body>
+        <center>
+        <h1><strong></strong>Order your pizza here!</h1>
+
+        <form method = "post" action = "https://lacucinapizzerianapoletana.mk/%d0%bc%d0%b5%d0%bd%d0%b8/">
+        <p><strong>Select the pizza size:</strong></p>
+        
+        <label>
+            <input name="size" type="radio" value="Large"checked>Large<br>
+        </label>
+
+        <label>
+            <input name="size" type="radio" value="Medium">Medium<br>
+        </label>
+
+        <label>
+            <input name="size" type="radio" value="Small">Small<br>
+        </label>
+
+        
+        <p><strong>Select the crust type:</strong></p>
+        <select name="crustType">
+            <option selected>Thin crust</option>
+            <option>Thick crust</option>
+            <option>Gluten-free</option>
+            <option>Sicilian crust</option>
+            <option>Stuffed crust</option>
+        </select>
+
+        <p><strong>Select the filler:</strong></p>
+        <label>
+
+            <input name="toppings" type="checkbox" value="Olives">Olives<br>
+        </label>
+
+        <label>
+            <input name="toppings" type="checkbox" value="Mushrooms">Mushrooms<br>
+        </label>
+        
+        <label>
+            <input name="toppings" type="checkbox" value="Green pepper">Green pepper<br>
+        </label>
+
+        <label>
+            <input name="toppings" type="checkbox" value="Mozzarella">Mozzarella<br>
+        </label>
+
+        <label>
+            <input name="toppings" type="checkbox" value="Extra ham">Extra ham<br>
+        </label>
+
+        <label>
+            <input name="toppings" type="checkbox" value="Bacon">Bacon<br>
+        </label>
+
+        <p><lable>Name
+            <input name="name" type="text" required>
+        </lable></p>
+
+        <p><label>Phone:
+            <input type="tel" placeholder="(xxx)xx-xxx-xxx" pattern = "\(\d{3}\)+\d{2}-\d{3}-\d{3}" required /> 
+            
+        </label></p>
+
+        <label>
+            <textarea name="Message" rows="6" cols="30" placeholder="Enter Message here..."></textarea>
+        </label>
+
+        <p>
+            <input type = "submit" value = "Send">
+            <input type = "reset" value = "Clear">
+        </p>
+        </form>
+        </center>
+    </body>
+</html>
