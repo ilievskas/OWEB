@@ -9,9 +9,10 @@
     <body>
         <center>
         <h1><strong></strong>Order your pizza here!</h1>
+        
 
         <form method = "post" action = "https://lacucinapizzerianapoletana.mk/%d0%bc%d0%b5%d0%bd%d0%b8/">
-        <p><strong>Select the pizza size:</strong></p>
+        <p><strong>Select the pizza size:</strong><br>
         
         <label>
             <input name="size" type="radio" value="Large"checked>Large<br>
@@ -24,9 +25,10 @@
         <label>
             <input name="size" type="radio" value="Small">Small<br>
         </label>
+        </p>
 
         
-        <p><strong>Select the crust type:</strong></p>
+        <p><strong>Select the crust type:</strong><br>
         <select name="crustType">
             <option selected>Thin crust</option>
             <option>Thick crust</option>
@@ -34,8 +36,9 @@
             <option>Sicilian crust</option>
             <option>Stuffed crust</option>
         </select>
+         </p>
 
-        <p><strong>Select the filler:</strong></p>
+        <p><strong>Select the filler:</strong><br>
         <label>
 
             <input name="toppings" type="checkbox" value="Olives">Olives<br>
@@ -59,7 +62,7 @@
 
         <label>
             <input name="toppings" type="checkbox" value="Bacon">Bacon<br>
-        </label>
+        </label></p>
 
         <p><lable>Name
             <input name="name" type="text" required>
