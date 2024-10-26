@@ -1,0 +1,53 @@
+h1 {
+    text-shadow: 2px 2px 2px  rgb(152, 108, 32);
+    color: rgba(243, 220, 105, 0.881);
+}
+
+
+div.background{
+    background-image: url(Pizza-3007395.jpg);
+    background-position: 100% center;
+    background-repeat: repeat
+}
+
+div.text-wrapper{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+body{
+    color: rgb(255, 245, 240);
+}
+
+select:hover {
+    text-transform: uppercase;
+    background-color: rgb(198, 99, 63);
+}
+
+div.sizep:hover{
+     text-decoration: underline;
+}
+
+div.toppings:has(input[type="checkbox"]:checked){
+    color: rgb(146, 105, 9);
+    text-decoration:underline;
+
+}
+
+input[type="submit"]{
+    padding: 1%;
+    border-radius: 15%;
+    background: rgb(108, 213, 119);
+
+}
+
+input[type="reset"]{
+    padding: 1%;
+    border-radius: 15%;
+    margin-left: 20%; 
+    background: rgb(213, 88, 79);
+
+}
+
+
+
