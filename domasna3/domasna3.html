@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>"Бесилка"</title>
+        <link rel="stylesheet" type="text/css" href="domasna3.css">
+        <script src = "domasna3.js"></script>
+
+    </head>
+
+    <body onload="StartNewGame()">
+        
+        <center>
+        
+        <h1>Започни ја твојата игра на "бесилка"!</h1>
+
+        <p>Имате право на 5 погодоци</p>
+        <p></p>
+        <h2>Со среќа!</h1>
+        <p>Еве го зборот што треба да го погoдиш: <span id="zbor"></span> </p>
+        <p><lable>Вашиот погодок
+            <input type="text" id="bukva" maxlength="1" placeholder="Внеси буква" />
+            <input type="button" onclick="checkLetter()" value="Провери" />
+        </lable></p>
+        <button onclick="StartNewGame()">Нова игра?</button>
+        
+    
+     </center>
+    
+     
+    
+    </body>
+</html>
