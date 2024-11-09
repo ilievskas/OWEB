@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Анкета</title>
+        <link href = 'http://fonts.googleapis.com/css?family=Calligraffitti'
+        rel = 'stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="anketa.css"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+
+    <body>
+        <div class="container-fluid">
+        <center>
+        <h1>За наша самоеваулација Ве молиме пополнете ја следнава анкета!</h1>
+
+        <br>
+        <p>
+            <label>Е-пошта:
+                <input name = "Email" type = "email" placeholder="something@domain.com" size= "20" maxlength="40">
+            </label>
+        </p>
+
+
+
+        <p><label><strong>Колку лесно се снаоѓате на нашата веб-страница?</strong></label></p>
+                
+            <p><input name="name" type="radio" value="Лесно" checked>Лесно</p>
+            
+            <p><input name="name" type="radio" value="Тешко">Тешко</p>
+
+
+        <p> <label><strong>Кои карактеристики ви се најважни при избор на автомобил?</strong></label></p>
+                
+            <p><input name="karaketristika" type="checkbox" value="Цена">Цена</p>
+            
+            <p><input name="karaketristika" type="checkbox" value="Гориво">Тип на гориво</p>
+        
+            <p><input name="karaketristika" type="checkbox" value="Година на производство">Година на производство</p>
+            
+            <p><input name="возило" type="checkbox" value="Километри">Поминати километри</p>
+
+            <p><label><strong>Дали би ја препорачале нашата веб-страница на други?</strong></label></p>
+                
+                <p><input name="name" type="radio" value="да" checked>Да
+                </p>
+                
+                <p>
+                    <input name="name" type="radio" value="Не">Не
+                </p>
+
+                <p>
+                    <input name="name" type="radio" value="Не знам">Не знам
+                </p>
+
+                <p>
+                    <label>Вашето мислење ни значи! <br>
+                        <textarea type="comments" placeholder="Доколку сакате да го споделите вашето искуство со нас, оставете порака тука...." 
+                        rows="5" cols="35"></textarea>    
+                    </label>
+                </p>
+                <a href="najava.html" class="btn btn-outline-success" id="isprati">Испрати!</a>
+
+        </center>
+    </div>   
+    </body>
+</html>

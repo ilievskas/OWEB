@@ -1,0 +1,36 @@
+img.img-thumbnail{
+   
+    width: 400px;
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 4%;
+    object-fit: cover;
+
+}
+
+textarea.comment{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+h1{
+    font-family: Calligraffitti;
+    margin-left: 40%;
+   
+    color: rgb(222, 182, 39);
+   
+}
+
+div.container-fluid{
+    background-color: rgb(228, 223, 223);
+}
+
+button{
+    border-radius: 40%;
+}
+
+.delete-kopce{
+    background-color: rgb(199, 85, 85);
+    margin-left: 3%;
+}
