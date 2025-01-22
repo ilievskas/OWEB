@@ -1,0 +1,29 @@
+header{
+    font-family: Calligraffitti;
+    margin-left: 40%;
+    margin-top: 5%;
+    color: rgb(222, 182, 39);
+}
+
+div.card{
+    display:inline-block ;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+body{
+    background-image: url(roadpic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin:0;
+    overflow: hidden;
+
+    
+}
+
+footer{
+    color:rgb(222, 182, 39) ;
+    margin-bottom: 5%;
+}

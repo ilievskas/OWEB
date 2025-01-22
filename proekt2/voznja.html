@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Закажи бозење!</title>
+        
+        <link href = 'http://fonts.googleapis.com/css?family=Calligraffitti'
+        rel = 'stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="najava.css"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    </head>
+
+    <body>
+        <form action="najava.html" method="post">
+        
+        
+        <center>
+            <h1>Heavens Ride</h1>
+
+        <h2>Закажи го твоето тест возење!</h2>
+
+        <form>
+            
+            <label>
+                <p>Име: <input name="име" type="text" required></p>
+                <p>Презиме: <input name="презиме" type="text" required></p>
+            </label>
+
+            <p><label>Телефон:
+                <input type="tel" placeholder="(xxx)xx-xxx-xxx" pattern = "\(\d{3}\)+\d{2}-\d{3}-\d{3}" required /> 
+                
+            </label></p>
+            <p>
+            <input type="date" id="datum"></p>
+
+           
+        <label><strong>Одберете за какво возило закажувате термин</strong>
+          <p> <input name="вози" type="radio" value="Ново возило"checked> Ново возило<br>    
+        </label></p>
+        <label>
+           <p> <input name="вози" type="radio" value="Половно возило">Половно возило<br>
+        </label> </p>
+
+            
+           <p> <label><strong>Одберете го возилото</strong></p>
+                
+            <p><input name="возило" type="checkbox" value="Audi A7">Audi A7
+            </label></p>
+            
+    
+    
+            
+            <p><label>
+                <input name="возило" type="checkbox" value="BMW M8">BMW M8
+            </label></p>
+           
+    
+    
+    
+            
+            <p><label>
+                <input name="возило" type="checkbox" value="Jaguar XF">Jaguar XF
+            </label></p>
+            
+    
+    
+    
+            
+            <p><label>
+                <input name="возило" type="checkbox" value="Volkswagen Golf 5">Volkswagen Golf 5
+            </label></p>
+
+            <p></p><label>
+                <input name="возило" type="checkbox" value="Renault Megane Cabrio">Renault Megane Cabrio
+            </label>
+
+            <p><label>
+                <input name="возило" type="checkbox" value="Opel Corsa">Opel Corsa
+            </label>
+
+           
+            <a href="anketa.html" class="btn btn-success" id="zakazi">Закажи!</a></p>
+           
+
+            
+    
+        
+        </form>
+    </center>
+    </body>
+</html>
